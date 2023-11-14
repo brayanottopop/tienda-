@@ -1,0 +1,56 @@
+{
+  "tablas": {
+    "clientes": {
+      "campos": {
+        "correo": "maria@gmail.com",
+        "direccion": "carcha",
+        "idcliente": 1,
+        "nombre": "maria",
+        "telefono": 1236589
+      }
+    },
+    "detalleOrden": {
+      "campos": {
+        "cantida": 2,
+        "iddetalle": 1,
+        "idorden": 1,
+        "idproducto": 1,
+        "precioUnitario": 2
+      }
+    },
+    "factura": {
+      "campos": {
+        "fecha": "2023-10-11",
+        "idfactura": 1,
+        "idorden": 1,
+        "total": 100
+      }
+    },
+    "ordenes": {
+      "campos": {
+        "fecha": "2023-10-11",
+        "idcliente": 1,
+        "idorden": 1,
+        "total": 100
+      }
+    },
+    "producto": {
+      "campos": {
+        "descripcion": "gaseosa",
+        "idproducto": 1,
+        "nombre": "coca cola",
+        "precio": 25.5,
+        "stock": 100
+      }
+    },
+    "proveedor": {
+      "campos": {
+        "correo": "carlos@gmail.com",
+        "direccion": "carcha",
+        "idproveedor": 1,
+        "nombre": "carlos",
+        "telefono": 1235086
+      }
+    }
+  }
+}
